@@ -9,3 +9,6 @@
 ## [dotfiles](https://github.com/jonki324/study/tree/master/dotfiles)
 - dotfilesまとめ
 - Mac環境設定まとめ
+
+## [Git](https://github.com/jonki324/study/tree/master/git)
+- Gitまとめ
