@@ -21,3 +21,6 @@
 
 ## [Linux](https://github.com/jonki324/study/tree/master/linux)
 - Linuxコマンドまとめ
+
+## [anyenv](https://github.com/jonki324/study/tree/master/anyenv)
+- anyenvまとめ
