@@ -30,3 +30,6 @@
 
 ## [ufw](https://github.com/jonki324/study/tree/master/ufw)
 - ufwまとめ
+
+## [機械学習](https://github.com/jonki324/study/tree/master/machine_learning)
+- 機械学習環境構築
