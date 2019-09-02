@@ -92,6 +92,8 @@ $ vi Dockerfile
 ```
 FROM php:7.3.5-apache-stretch
 
+SHELL ["/bin/bash", "-c"]
+
 RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"
 
 ENV DOCUMENT_ROOT /var/www/html
@@ -108,6 +110,8 @@ CMD ["apache2-foreground"]
 ```
 #### FROM
 元となるイメージを指定する
+#### SHELL
+ビルド時のシェルにbashを指定する
 #### RUN
 コマンドを実行しミドルウェアのインストール等を行う
 #### ENV
