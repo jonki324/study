@@ -91,6 +91,20 @@ $ pyenv uninstall 3.7.0
 $ pyenv uninstall testenv
 ```
 
+### Condaによる仮想環境構築
+```
+$ vi ~/.bash_profile
+# 下記を追記
+alias conda_activate="source $PYENV_ROOT/versions/$(pyenv version-name)/bin/activate"
+
+$ pyenv local anaconda3-5.1.0
+$ conda create -n env python=3.6
+
+$ conda_activate env
+
+$ conda deactivate
+```
+
 ## jenv
 ### インストール済みバージョン確認
 ```
