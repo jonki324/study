@@ -94,7 +94,7 @@ $ pyenv uninstall testenv
 ### Condaによる仮想環境構築
 ```
 $ vi ~/.bash_profile
-# 下記を追記
+# 下記を追記
 alias conda_activate="source $PYENV_ROOT/versions/$(pyenv version-name)/bin/activate"
 
 $ pyenv local anaconda3-5.1.0
