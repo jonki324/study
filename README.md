@@ -33,3 +33,6 @@
 
 ## [機械学習](https://github.com/jonki324/study/tree/master/machine_learning)
 - 機械学習環境構築
+
+## [Pipenv](https://github.com/jonki324/study/tree/master/pipenv)
+- Pipenvまとめ
