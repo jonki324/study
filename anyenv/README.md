@@ -176,3 +176,33 @@ $ cd test
 
 $ phpenv local 7.3.6
 ```
+
+## nodenv
+### インストール可能なバージョン確認
+```
+$ nodenv install --list
+```
+
+### インストール
+```
+$ nodenv install 12.10.0
+$ nodenv rehash
+```
+
+### インストール済みバージョン確認
+```
+$ nodenv versions
+```
+
+### バージョンを指定(グローバルの場合)
+```
+$ nodenv global 12.10.0
+```
+
+### バージョンを指定(ローカルの場合)
+```
+$ mkdir test
+$ cd test
+
+$ nodenv local 12.10.0
+```
