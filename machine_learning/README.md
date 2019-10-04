@@ -348,7 +348,7 @@ def set(context="notebook", style="darkgrid", palette="deep",
 
 ## インストールしたパッケージ
 ```
-$ conda install -y numpy pandas matplotlib jupyter seaborn scikit-learn Pillow requests beautifulsoup4 lxml xlrd pydotplus autopep8 yapf isort
+$ conda install -y numpy pandas matplotlib jupyter seaborn scikit-learn Pillow requests beautifulsoup4 lxml xlrd pydotplus autopep8 yapf isort sqlalchemy opencv nltk
 $ conda install -y -c conda-forge mlxtend jupyter_contrib_nbextensions
-$ pip install -y tensorflow-gpu==1.12.0 keras
+$ pip install tensorflow-gpu==1.12.0 keras
 ```
