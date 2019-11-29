@@ -45,3 +45,6 @@
 
 ## [Heroku](https://github.com/jonki324/study/tree/master/heroku)
 - Herokuまとめ
+
+## [zsh](https://github.com/jonki324/study/tree/master/zsh)
+- zshまとめ
