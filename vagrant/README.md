@@ -225,9 +225,10 @@ $ vagrant ssh web
 ## プラグイン関連操作
 ### プラグインの追加
 ```
-$ vagrant plugin install vagrant-hostsupdater
-$ vagrant plugin install vagrant-hosts
-$ vagrant plugin install vagrant-vbguest
+$ vagrant plugin install vagrant-hostsupdater  # ゲストOSの情報をホストOSのhostsに追加
+$ vagrant plugin install vagrant-hosts  # ゲストOSのhostsに自動追加
+$ vagrant plugin install vagrant-vbguest  # Guest Additionの自動更新
+$ vagrant plugin install vagrant-proxyconf  # ゲストOSにホストOSのプロキシー情報を設定
 ```
 
 ### プラグインの一覧
@@ -243,4 +244,19 @@ $ vagrant plugin update
 ### プラグインの削除
 ```
 $ vagrant plugin uninstall vagrant-hostsupdater
+```
+
+## プロキシー設定(vagrant-proxyconf)
+```
+$ vi Vagrantfile
+```
+```
+if Vagrant.has_plugin?("vagrant-proxyconf") && ENV['http_proxy']
+    puts '- Proxy Setting ----------------------------------'
+    puts ENV['http_proxy']
+    config.proxy.http     = ENV['http_proxy']
+    config.proxy.https    = ENV['https_proxy']
+    config.proxy.no_proxy = "localhost,127.0.0.1"
+    puts '--------------------------------------------------'
+end
 ```
