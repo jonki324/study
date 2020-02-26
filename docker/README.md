@@ -1,7 +1,7 @@
 # Dockerまとめ
 ## インストール
 ```
-$ brew install cask docker
+$ brew cask install docker
 $ docker -v
 Docker version 18.06.0-ce, build 0ffa825
 ```
